@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+    <link rel="icon" href="/img/logo.png">
+    <title>MeD</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__body">
+                <div class="header-logo">
+                    <img src="/img/logo.png" alt="">
+                    <a href="">MeD</a>
+                </div>
+                <div class="header__menu">
+                    <ul class="header__list">
+                        <li><a class="header__link" href="#">Главная
+                            </a></li>
+                        <li><a class="header__link" href="#">Информация</a></li>
+                        <li><a class="header__link" href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__name">
+                <h1>Натуральный<br> мёд</h1>
+            </div>
+            <div class="main__p">
+                <p>Только качественный<br> продукт.</p>
+            </div>
+            <div class="main__button">
+                <a href="#">Купить</a>
+            </div>
+            <div class="main__down">
+                <img src="/img/mouse.png" alt="">
+            </div>
+        </main>
+        <section class="section">
+            <div class="section__h1">Наши услуги!</div>
+            <div class="section__columns">
+                <div class="section__column">
+                    <img class="section__img" src="/img/bee.png" alt="">
+                    <p>Продукты пчеловодства</p>
+                </div>
+                <div class="section__column">
+                    <img class="section__img" src="/img/apicultor.png" alt="">
+                    <p>Уроки пчеловодства</p>
+                </div>
+                <div class="section__column">
+                    <img class="section__img" src="/img/honey.png" alt="">
+                    <p>Магазин меда</p>
+                </div>
+                <div class="section__column">
+                    <img class="section__img" src="/img/remark.png" alt="">
+                    <p>Пчеловодческий инвентарь</p>
+                </div>
+            </div>
+            <div class="section__button"><a href="#">Подписаться!</a></div>
+        </section>
+        <section class="sinfo">
+            <div class="sinfo__name">Информация</div>
+            <div class="sinfo__section">
+                <div class="sinfo__sectname">
+                    <h1>Для чего<br> полезен мёд?</h1>
+                    <p>Мед является богатым<br> источником витаминов и<br> минералов. Он содержит<br> все витамины
+                        группы В, К,<br> Е,
+                        С, провитамин А. Так как<br> витамины находятся в<br> соединении с природными<br> минеральными
+                        солями и<br>
+                        биогенными аминами<br> польза от них огромная.</p>
+                </div>
+                <div class="sinfo__image"><img src="/img/info.png" alt=""></div>
+                <div class="sinfo__honey">
+                    <h1>Полезные<br> свойства <span>мёда</span></h1>
+                    <div class="sinfo__yes">
+                        <div class="sinfo__yesses"><img src="/img/yes.png" alt="">
+                            <p><span>Регулирует</span>обменные процессы</p>
+                        </div>
+                        <div class="sinfo__yesses"><img src="/img/yes.png" alt="">
+                            <p>Повышает<span>иммунитет</span></p>
+                        </div>
+                        <div class="sinfo__yesses"><img src="/img/yes.png" alt="">
+                            <p>Помогает справиться с<span>бессонницей</span></p>
+                        </div>
+                        <div class="sinfo__yesses"><img src="/img/yes.png" alt="">
+                            <p>Придает<span>энергию</span>телу</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sinfo__fly"><img src="/img/pchela.png" alt=""></div>
+        </section>
+        <div class="country">
+            <div class="country__h1">Лучший магазин по продаже мёда!</div>
+            <div class="country__countries">
+                <div class="country__countrie">
+                    <img src="/img/mold1.png" alt="">
+                    <span>Молдавия</span>
+                </div>
+                <div class="country__countrie">
+                    <img src="/img/ukr2.png" alt="">
+                    <span>Украина</span>
+                </div>
+                <div class="country__countrie">
+                    <img src="/img/rus3.png" alt="">
+                    <span>Россия</span>
+                </div>
+                <div class="country__countrie">
+                    <img src="/img/belorus4.png" alt="">
+                    <span>Беллорусия</span>
+                </div>
+            </div>
+            <div class="country__cart">
+                <a href="#">Карты</a>
+            </div>
+        </div>
+        <footer class="footer">
+            <a href="#">Позвоните нам!</a>
+            <span>Copyright © 2021.All rights reserved.</span>
+        </footer>
+        <div class="modal">
+            <img src="/img/message.png" alt="">
+        </div>
+        <div class="modal__active">
+            <div class="modal__content">
+                <div class="modal__name">Оставить заявку</div>
+                <div class="modal__p">Оставьте свои контактные<br> данные и мы свяжемся с<br> вами в ближайшее время.
+                </div>
+                <form action="php/sender.php" method="post" class="form">
+                    <div class="form__name">
+                        <span class="bar"></span>
+                        <label>Имя</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="form__mail">
+                        <span class="bar"></span>
+                        <label for="">E-mail</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="form__mesage">
+                        <span class="bar"></span>
+                        <label for="">Сообщения</label>
+                        <input type="text" name="message">
+                    </div>
+                    <div class="form__send"><button type="button">Отправить</button></div>
+                </form>
+                <div class="form__close"><img src="/img/close.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
